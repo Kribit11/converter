@@ -12,7 +12,7 @@ This webpage can convert a huge amount of times from centuries to quectoseconds!
 > - Fahrenheit
 > - Kelvin
 
-> for **time** we have (ascending order)
+> For **time** we have: (ascending order)
 > - plank time
 > - quectoseconds
 > - rontoseconds
