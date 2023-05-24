@@ -16,14 +16,14 @@ userForm.addEventListener("submit", (e) => {
   }
 
   if (!endLength) {
-    return addMessage("Please select a ending length unit", "bot");
+    return addMessage("Please select an ending length unit", "bot");
   }
 
   const lengthInMeters = convertToMeters(quantity, startLength);
   const convertedLength = convertFromMeters(lengthInMeters, endLength);
 
   if (convertedLength === null) {
-    return addMessage("result is null", "bot");
+    return addMessage("Conversion not supported", "bot");
   }
 
   addMessage(`${convertedLength} ${endLength}`, "bot");
@@ -33,7 +33,7 @@ function convertToMeters(quantity, startLength) {
   switch (startLength) {
     case "meters":
       return quantity;
-    case "centermeters":
+    case "centimeters":
       return quantity / 100;
     default:
       return null;
@@ -44,7 +44,7 @@ function convertFromMeters(lengthInMeters, endLength) {
   switch (endLength) {
     case "meters":
       return lengthInMeters;
-    case "centermeters":
+    case "centimeters":
       return lengthInMeters * 100;
     default:
       return null;
