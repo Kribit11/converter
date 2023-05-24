@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temprature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Website icon.png">
+</head>
+<body>
+    <div class="size">
+        <div class="header">
+            <a href="index.html">
+                <img src="temp.png" alt="time icon">
+            </a>
+            
+            <h1>Temprature Converter</h1>
+        </div>
+        <div id="chatbox">
+            <p>Enter a temprature, then a unit, and then another unit. 
+            </p>
+        </div>
+        <form id="userinput">
+            <input type="number" id="quantity" class="input" name="quantity" min="-9999999999" max="99999999999">
+
+            <select name="start-temp" class="select" id="start-temp">
+                <option value=""></option>
+                <option value="Celsius">Celsius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+            <sus>to</sus>
+            <select class="select" name="end-temp" id="end-temp">
+                <option value=""></option>
+                <option value="Celsius">Celsius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+	<script src="temprature.js"></script>
+</body>
+</html>
