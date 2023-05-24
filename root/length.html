@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Length Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Website icon.png">
+</head>
+<body>
+    <div class="size">
+        <div class="header">
+            <a href="index.html">
+                <img src="length.png" alt="time icon">
+            </a>
+            
+            <h1>Length Converter</h1>
+        </div>
+        <div id="chatbox">
+            <p>Enter a length, then a unit, and then another unit. 
+            </p>
+        </div>
+        <form id="userinput">
+            <input type="number" id="quantity" class="input" name="quantity" min="1" max="99999999999">
+
+            <select name="start-length" class="select" id="start-length">
+                <option value=""></option>
+                <option value="meters">meters</option>
+                <option value="centermeters">centermeters</option>
+            </select>
+            <sus>to</sus>
+            <select class="select" name="end-length" id="end-length">
+                <option value=""></option>
+                <option value="Meters">Meters</option>
+                <option value="Centermeters">Centermeters</option>
+            </select>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+	<script src="length.js"></script>
+</body>
+</html>
