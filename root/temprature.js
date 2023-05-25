@@ -35,7 +35,7 @@ function convertToCelsius(quantity, startTemp) {
       return quantity;
     case "fahrenheit":
       return (quantity - 32) * 5 / 9;
-    case "Kelvin":
+    case "kelvin":
       return quantity - 273.15;
     default:
       return null;
@@ -48,7 +48,7 @@ function convertFromCelsius(tempInCelsius, endTemp) {
       return tempInCelsius;
     case "fahrenheit":
       return (tempInCelsius * 9 / 5) + 32;
-    case "Kelvin":
+    case "kelvin":
      return tempInCelsius + 273.15;
     default:
       return null;
