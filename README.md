@@ -3,16 +3,16 @@ Converter for Time/Temperature/Length
 
 This webpage can convert a huge amount of times from centuries to quectoseconds! It converts a small amount of temperatures and length as well. 
 
-> For **length** we have: (ascending order)
+> For **length:** (ascending order)
 > - centermeters
 > - meters
 
-> For **temperature** we have: 
+> For **temperature:** 
 > - Celsius
 > - Fahrenheit
 > - Kelvin
 
-> For **time** we have: (ascending order)
+> For **time:** (ascending order)
 > - plank time
 > - quectoseconds
 > - rontoseconds
@@ -27,20 +27,40 @@ This webpage can convert a huge amount of times from centuries to quectoseconds!
 > - centiseconds
 > - deciseconds
 > - seconds
+> - 
 
 ## Known glitches
 
 > For **length:**
-> - doesn't currently work at converting anything as it returns as null
-> - only meters and centermeters are added
+> - only meters and centermeters are added - more will be added
 
 > For **temperature:**
-> - the Kelvin unit doesn't work and returns as null 
-> - Kelvin to Fahrenheit always returns as 32 degrees
+> - actually works as intended
 
 > For **time:**
 > - the quectosecond and rontosecond return as numbers like '9.999999999999999e+29' & '9.999999999999998e+23'
+> - years are exactly 365 instead of however its meant to be 
+> - decades and centuries are also off because of leap years
+> - months not added yet
 
 > For **home page:**
 > - The flex doesn't work as intended
+
+## update log
+ 
+> update **5**
+> - fixed some broken units
+>   - Kelvin
+>   - centermeter & meter
+> - made the project public!!
+> - added credits and grammar checked README.md
+
+
+## Credits
+
+> Me, [kribit](https://linktr.ee/kribit) and the help of AI for some very obvious errors i made
+  
+
+
+
 
