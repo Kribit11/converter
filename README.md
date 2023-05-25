@@ -3,6 +3,8 @@ Converter for Time/Temperature/Length
 
 This webpage can convert a huge amount of times from centuries to quectoseconds! It converts a small amount of temperatures and length as well. 
 
+The main reason for the creation of this website is for STEM club. I am recreating time it self. I thought it would be helpful if I had a converter to convert between actulal times (like seconds and minutes) to my recreated and *better* times. I have not done any wokr on the actual STEM project though... 
+
 > For **length:** (ascending order)
 > - centermeters
 > - meters
@@ -27,7 +29,6 @@ This webpage can convert a huge amount of times from centuries to quectoseconds!
 > - centiseconds
 > - deciseconds
 > - seconds
-> - 
 
 ## Known glitches
 
@@ -54,13 +55,13 @@ This webpage can convert a huge amount of times from centuries to quectoseconds!
 >   - centermeter & meter
 > - made the project public!!
 > - added credits and grammar checked README.md
-
+>
+> update **6**
+> - added the live time to the main page ([stole from here](https://iq.opengenus.org/display-live-time-and-date-in-html/))
 
 ## Credits
 
-> Me, [kribit](https://linktr.ee/kribit) and the help of AI for some very obvious errors i made
-  
-
-
-
+> Me, [kribit](https://linktr.ee/kribit) and the help of AI for some very obvious errors i made that i should have picked up on 
+>
+> (TBH most of the errrors were grammar mistakes like capitals but i still messed it up)
 
