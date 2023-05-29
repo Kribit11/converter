@@ -34,6 +34,7 @@ The main reason for the creation of this website is for STEM club. I am recreati
 
 > For **length:**
 > - only meters and centermeters are added - more will be added
+> - doesn't work now i don't even know why...
 
 > For **temperature:**
 > - actually works as intended
