@@ -3,7 +3,7 @@ Converter for Time/Temperature/Length
 
 This webpage can convert a huge amount of times from centuries to quectoseconds! It converts a small amount of temperatures and length as well. 
 
-The main reason for the creation of this website is for STEM club. I am recreating time it self. I thought it would be helpful if I had a converter to convert between actulal times (like seconds and minutes) to my recreated and *better* times. I have not done any wokr on the actual STEM project though... 
+The main reason for the creation of this website is for STEM club. I am recreating time it self. I thought it would be helpful if I had a converter to convert between actulal times (like seconds and minutes) to my recreated and *better* times. I have not done any work on the actual STEM project though... 
 
 > For **length:** (ascending order)
 > - centermeters
@@ -34,6 +34,7 @@ The main reason for the creation of this website is for STEM club. I am recreati
 
 > For **length:**
 > - only meters and centermeters are added - more will be added
+> - doesn't work now i don't even know why...
 
 > For **temperature:**
 > - actually works as intended
