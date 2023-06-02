@@ -47,17 +47,18 @@ The main reason for the creation of this website is for STEM club. I am recreati
 > For **home page:**
 > - The flex doesn't work as intended
 
-## update log
+## main updates
  
 > update **5**
 > - fixed some broken units
 >   - Kelvin
 >   - centermeter & meter
 > - made the project public!!
-> - added credits and grammar checked README.md
+> - added credits and grammar checked the README .md file
 >
 > update **6**
 > - added the live time to the main page ([stole from here](https://iq.opengenus.org/display-live-time-and-date-in-html/))
+
 
 ## Credits
 
