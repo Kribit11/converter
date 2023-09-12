@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background: #d7ddde;
+    height: 100px;
+    width: 800px;
 }
 
 h1 {
@@ -39,7 +41,8 @@ img {
 }
 
 a {
-    color: #3ab174;
+    text-decoration: none;
+    color: #000;
 }
 
 .select {

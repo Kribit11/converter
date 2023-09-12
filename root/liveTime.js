@@ -1,8 +1,13 @@
-`use strict`;
-function refreshTime() {
-  const timeDisplay = document.getElementById("time");
-  const dateString = new Date().toLocaleString();
-  const formattedString = dateString.replace(", ", " - ");
-  timeDisplay.textContent = formattedString;
+function updateTime() {
+  const currentTime = new Date();
+  const hours = currentTime.getHours();
+  const minutes = currentTime.getMinutes();
+  const seconds = currentTime.getSeconds();
+
+  const formattedTime = `${hours}:${minutes}.${seconds}`;
+
+  document.getElementById('time').textContent = formattedTime;
 }
-  setInterval(refreshTime, 1000);
+
+setInterval(updateTime, 1000);
+updateTime();
