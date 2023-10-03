@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background: #d7ddde;
-    height: 100px;
+    height: 110px;
     width: 800px;
 }
 
@@ -41,8 +41,7 @@ img {
 }
 
 a {
-    text-decoration: none;
-    color: #000;
+    color: #3ab174;
 }
 
 .select {
